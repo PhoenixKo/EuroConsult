@@ -17,7 +17,7 @@
         <header>
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
               <div class="container-fluid">
-                <a class="navbar-brand" href="#">Carousel</a>
+                <a class="navbar-brand" href="#">EvroConsult</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -26,8 +26,15 @@
                     <li class="nav-item active">
                       <a class="nav-link" href="index.html">Начало</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link"  href="services.html">Услуги</a>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link" href="services.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Услуги
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Счетоводни услуги</a></li>
+                        <li><a class="dropdown-item" href="#">Юредически услуги</a></li>
+                        <li><a class="dropdown-item" href="#">Финансови и Бизнес консултации</a></li>
+                      </ul>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link"  href="about.html">За Нас</a>
@@ -39,10 +46,10 @@
                         <a class="nav-link" aria-current="page" href="contacts.html">Контакт</a>
                     </li>
                   </ul>
-                  <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Начало</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Контакти</li>
+                  </ol>
                 </div>
               </div>
             </nav>

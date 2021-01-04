@@ -17,7 +17,7 @@
         <header>
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
               <div class="container-fluid">
-                <a class="navbar-brand" href="#">Carousel</a>
+                <a class="navbar-brand" href="#">EvroConsult</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -26,8 +26,15 @@
                     <li class="nav-item active">
                       <a class="nav-link" href="index.html">Начало</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="services.html">Услуги</a>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link" href="services.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Услуги
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="services.html">Счетоводни услуги</a></li>
+                        <li><a class="dropdown-item" href="#">Юредически услуги</a></li>
+                        <li><a class="dropdown-item" href="#">Финансови и Бизнес консултации</a></li>
+                      </ul>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link"  href="about.html">За Нас</a>
@@ -39,10 +46,11 @@
                         <a class="nav-link" href="contacts.html">Контакт</a>
                     </li>
                   </ul>
-                  <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Начало</a></li>
+                    <li class="breadcrumb-item"><a href="services.hmtl">Услуги</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Счетоводни услуги</li>
+                  </ol>
                 </div>
               </div>
             </nav>
@@ -51,6 +59,81 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
+        <div class="container mx-auto text-center ">
+          <h1 class="games-heading">Some of the games we have developed !</h1>
+
+
+  <div class="slide-container">
+    <div class="slide fade">
+        <div class="numbertext"> 1 / 3</div>
+        <img src="images/1.jpg" style="width:100%">
+
+    </div>
+
+    <div class="slide fade">
+        <div class="numbertext"> 2 / 3</div>
+        <img src="images/2.jpg" style="width:100%">
+        
+    </div>
+
+    <div class="slide fade">
+        <div class="numbertext"> 3 / 3</div>
+        <img src="images/3.jpg" style="width:100%">
+
+    </div>
+
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+   <span class="dot" onclick="currentSlide(1)"></span>
+   <span class="dot" onclick="currentSlide(2)"></span>
+   <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<br />
+<br />
+<hr>
+<h2 class="thief-heading">Thief</h2>
+<div class="myInfo">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
+Integer lacinia erat ac felis scelerisque, dictum ultricies nisi molestie.<br />
+Duis mollis lectus consequat felis auctor interdum a sodales velit.<br />
+Ut vulputate nec magna id imperdiet. <br />
+Maecenas pharetra aliquet enim sed volutpat.<br />
+Praesent id tincidunt risus. Ut dapibus blandit nisl.<br />
+</div>
+<hr>
+<h2 class="thief-heading">PlayerUknown Battlegrounds</h2>
+<div class="myInfo">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
+Integer lacinia erat ac felis scelerisque, dictum ultricies nisi molestie.<br />
+Duis mollis lectus consequat felis auctor interdum a sodales velit.<br />
+Ut vulputate nec magna id imperdiet. <br />
+Maecenas pharetra aliquet enim sed volutpat.<br />
+Praesent id tincidunt risus. Ut dapibus blandit nisl.<br />
+</div>
+<hr>
+<h2 class="thief-heading">Guild Wars 2</h2>
+<div class="myInfo">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
+Integer lacinia erat ac felis scelerisque, dictum ultricies nisi molestie.<br />
+Duis mollis lectus consequat felis auctor interdum a sodales velit.<br />
+Ut vulputate nec magna id imperdiet. <br />
+Maecenas pharetra aliquet enim sed volutpat.<br />
+Praesent id tincidunt risus. Ut dapibus blandit nisl.<br />
+</div>
+
+
+
+  </div>
+        
+  <footer class="container mt-5">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>© 2017-2020 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+  </footer>
         <style id="extraClass">.extraClassAspect {-webkit-transform: scaleX(1)!important;}.extraClassCrop {-webkit-transform: scale(1)!important;}</style>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     </body>
