@@ -163,6 +163,13 @@
     .services-header {
       margin-top: 200px;
     }
+
+
+.col-md-5 .order-md-1 .image-fluid img   {
+  width: 500px;
+  height: 500px;
+}
+
   /* Footer */
   .section-footer {
     padding-top: 60px;
